@@ -1,5 +1,5 @@
 {
-    "name": "n8n-nodes-ynab",
+    "name": "@mfaishalakbar/n8n-nodes-ynab",
     "version": "0.1.0",
     "description": "n8n community node for interacting with the YNAB personal budgeting API",
     "license": "MIT",
@@ -46,5 +46,9 @@
     },
     "peerDependencies": {
         "n8n-workflow": "*"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
     }
 }
